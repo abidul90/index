@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(Images/n9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    width: fit-content;
+    height: fit-content;
+    float: left;
+}
+h1 img{
+width: 80px;
+height: 50px;
+}
+ul li{
+    width:fit-content;
+    height: fit-content;
+    float: left;
+    margin-top: 20px;
+    margin-left: 70px;
+    list-style: none;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-style: italic;
+    padding: 3px;
+}
+ul li a:hover{
+    color: #ff0;
+    background-color: #492100;
+}
+.search{
+    float: right;
+    margin-top: 15px;
+    margin-right: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+input{
+    color:#ff7f20;
+   border-color: rgb(53, 48, 48);
+   background-color: transparent;
+   padding: 3px;
+}
+.btn{
+   color:white;
+   border-color: black;
+   background-color: transparent;
+   padding: 3px;
+}
+.btn:hover{
+    color:#ff0;
+   border-color: transparent;
+   background-color: #492100;
+
+}
+.nav h2{
+    font-size: 35px;
+    text-align: center;
+}
+h2{
+    width: 100%;
+    float: right;
+    margin-top: 260px;
+    text-align: center;
+    color: rgb(5, 160, 31);
+}
+p{
+    float: left;
+    font-size: larger;
+    text-align: center;
+    color: #fff;
+    margin-left: 325px;
+}
+.text{
+    margin-left: 360px;
+}
